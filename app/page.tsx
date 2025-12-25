@@ -131,9 +131,9 @@ export default function Home() {
           <ContentWindow>
             <p className="leading-relaxed">
               Hi! My name is Katerina 👋 I am a Product Manager specializing in taking products from 0 to 1. Over the
-              past 8+ years in tech, I've held various roles across product, customer success, and design — giving me a
-              well-rounded perspective on both the commercial and technical sides of building great products. I've
-              contributed to the growth of three startups —{" "}
+              past 8+ years in tech, I've worked across product, design, and sales, which has given me a strong
+              understanding of both the commercial and technical sides of building impactful products. I've contributed
+              to the growth of three startups —{" "}
               <a
                 href="https://www.quanwellbeing.com/"
                 target="_blank"
@@ -163,21 +163,31 @@ export default function Home() {
               .
               <br />
               <br />
-              Most recently, I've spent 5 years in well-being tech, where I've honed my skills in user-centered
-              innovation, scaling operations, and delivering meaningful impact. I've also learned to thrive in highly
-              dynamic (aka uncertain) environments and make self-directed decisions, using data as my compass.
-              <br />
-              <br />
-              I'm currently building the product for creators at{" "}
+              In 2020, I joined a well-being startup as a founding member and spent five years building a user-centered
+              product from the ground up, with the goal of setting a new industry standard. Along the way, I learned how
+              to navigate ambiguity, make independent decisions, and rely on data as my compass. I exited the startup
+              after shipping the third version of the app, just as the company was preparing for its acquisition by{" "}
               <a
-                href="https://manychat.com"
+                href="https://www.jointruetribe.com/nl/library/hr-tech-bedrijf-truetribe-neemt-employee-wellbeing-platform-quan-over"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-emerald-400 hover:underline"
+              >
+                TrueTribe
+              </a>{" "}
+              in early 2025.
+              <br />
+              <br />
+              As of May 2025, I'm at{" "}
+              <a
+                href="https://manychat.com/product/ai"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-emerald-400 hover:underline"
               >
                 Manychat
               </a>
-              .
+              , where I work on building AI agents.
               <br />
               <br />
               <a
