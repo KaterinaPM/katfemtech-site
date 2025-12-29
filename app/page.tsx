@@ -191,10 +191,8 @@ export default function Home() {
               <br />
               <br />
               <a
-                href="https://github.com/yourusername/yourrepository/blob/main/Katerina%20Stepanova%20-%20Product%20Manager%20CV%20%E2%80%93%20Dec%202025.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                download="Katerina_Stepanova_CV_Dec_2025.pdf"
+                href="https://raw.githubusercontent.com/KaterinaPM/katfemtech-site/main/public/Katerina-Stepanova-Product-Manager-CV.pdf"
+                download="Katerina_Stepanova_CV.pdf"
                 className="text-emerald-400 hover:underline inline-flex items-center"
               >
                 Download my CV here
