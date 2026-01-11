@@ -21,31 +21,18 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         {children}
-        <Script id="chatbase-script" strategy="lazyOnload">
+        <Script
+          id="chatbase-embed"
+          src="https://www.chatbase.co/embed.min.js"
+          strategy="afterInteractive"
+          data-chatbot-id="75r32o3VrAg1IeD9w42cu"
+        />
+        <Script id="chatbase-config" strategy="afterInteractive">
           {`
-            (function(){
-              if(!window.chatbase||window.chatbase("getState")!=="initialized"){
-                window.chatbase=(...arguments)=>{
-                  if(!window.chatbase.q){window.chatbase.q=[]}
-                  window.chatbase.q.push(arguments)
-                };
-                window.chatbase=new Proxy(window.chatbase,{
-                  get(target,prop){
-                    if(prop==="q"){return target.q}
-                    return(...args)=>target(prop,...args)
-                  }
-                })
-              }
-              const onLoad=function(){
-                const script=document.createElement("script");
-                script.src="https://www.chatbase.co/embed.min.js";
-                script.id="75r32o3VrAg1IeD9w42cu";
-                script.domain="www.chatbase.co";
-                document.body.appendChild(script)
-              };
-              if(document.readyState==="complete"){onLoad()}
-              else{window.addEventListener("load",onLoad)}
-            })();
+            window.embeddedChatbotConfig = {
+              chatbotId: "75r32o3VrAg1IeD9w42cu",
+              domain: "www.chatbase.co"
+            }
           `}
         </Script>
       </body>
