@@ -191,8 +191,8 @@ export default function Home() {
               <br />
               <br />
               <a
-                href="/Katerina-Stepanova-Product-Manager-CV.pdf"
-                download="Katerina_Stepanova_CV.pdf"
+                href="/Katerina Stepanova - Product Manager CV – Dec 2025.pdf"
+                download="Katerina_Stepanova_CV_Dec_2025.pdf"
                 className="text-emerald-400 hover:underline inline-flex items-center"
               >
                 Download my CV here
